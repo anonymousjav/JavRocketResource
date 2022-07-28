@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/img/(.*).(jpe?g|png|ico|webp|svg|mp4|gif|xml|ttf|woff2?)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=2592000, public"
+        }
+      ]
+    }
+  ]
+}
